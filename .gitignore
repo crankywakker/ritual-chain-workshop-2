@@ -1,0 +1,25 @@
+# Node dependencies
+node_modules/
+.pnpm-store/
+
+# Hardhat build artifacts
+hardhat/artifacts/
+hardhat/cache/
+hardhat/typechain-types/
+
+# Compiled contract sizes
+hardhat/contract-sizes.json
+
+# Local environment & secrets
+.env
+.env.local
+*.env
+
+# Local deployment config (address changes per machine)
+web/local-config.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
